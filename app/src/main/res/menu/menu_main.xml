@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.keyan.cet.MainActivity">
+
+    <item
+        android:id="@+id/onClickStart"
+        android:icon="@drawable/notification"
+        android:title="Start"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/myswitch"
+        android:title="Switch"
+        app:showAsAction="never"
+        app:actionLayout="@layout/switch_layout"
+        />
+
+    <item
+        android:id="@+id/onClickStop"
+        android:icon="@drawable/ic_bluetooth_disabled_white_48dp"
+        android:title="Stop"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/onClickClear"
+        android:icon="@drawable/ic_clear_white_48dp"
+        android:title="Clear"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/onClickSend"
+        android:icon="@drawable/ic_send_white_48dp"
+        android:title="Send"
+        app:showAsAction="never"
+
+        />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>

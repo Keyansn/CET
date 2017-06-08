@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Climate Edge</string>
+    <string name="action_settings">Gosodiadau</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="SECTION_5">Lleithder</string>
+    <string name="SECTION_2">Tymheredd yr Aer</string>
+    <string name="SECTION_3">Tymheredd yr Pridd</string>
+    <string name="SECTION_4">Dwysedd Heulwen</string>
+    <string name="SECTION_1">Glawiad</string>
+
+</resources>
